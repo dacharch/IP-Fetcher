@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+*{
+    margin:0 ;
+    padding:0;
+    font-size: 17px;
+    box-sizing: border-box;
+}
+body{
+    height:400px;
+    width:400px ;
+    background-color: #fffdfd;
+}
+.top-container{
+    width:100% ;
+    height:40px  ;
+    padding:5px ;
+    border-bottom:1px solid rgb(138, 131, 131) ;
+}
+
+.ip-fetcher{
+    font-style: italic;
+    font-size: large;
+    font-weight: bold;
+    color:#e66a4c;
+    
+}
+.btn_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top:3px;
+    border-bottom: 1px solid rgb(138, 131, 131);
+
+}
+.btn button{
+    width:90px ;   
+    height: 30px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: 1px solid rgba(27, 31, 35, .15);
+    outline: none;
+    background-color: #2ea44f;
+    color:#fff ;
+    margin-bottom: 5px;
+
+}
+
+.tableContainer{
+    padding:15px ;
+    
+}
+table{
+    width:100% ;
+    max-width: 100%;
+    border-collapse: collapse;
+    background-color: transparent;
+    padding:10px ;
+}
+table tr{
+    border-top: 1px solid #ddd;
+  
+}
+table tr th {
+    color:black;
+}
+table tr td{
+    text-align: center;
+}
+table tr:nth-child(odd){
+    background-color: #f7f7f7;
+}
+table tr:hover{
+    background-color: #ddd;
+    
+}
+#imgContainer{
+   width:100px ;
+   height: 100px;
+   margin-top:100px ;
+   margin-left:150px ;
+   
+}
+
+#tableContainer{
+    display: none;
+}
+#aboutContainer{
+    display: none ;
+    text-align: center;
+
+}
+

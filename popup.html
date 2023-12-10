@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>IP Fetcher</title>
+</head>
+<body>
+   <div class="container">
+        <div class="top-container">
+                <p class="ip-fetcher">IP Fetcher</p>
+                <p class="my_ip"></p>
+        </div>
+     
+        <div class="btn_container">
+            <div class="btn">
+              <button id="ipv4">Get IP</button>
+            </div>
+  
+            <div class="btn">
+              <button id="domain">Domain</button>
+            </div>
+            <div class="btn">
+              <button id="about">About</button>
+            </div>
+      </div>
+       <div id="tableContainer" class="tableContainer">
+          <table>
+              <tr>
+                  <td>Server IP</td>
+                  <td id="serverIP"></td>
+              </tr>
+              <tr>
+                  <td>Country</td>
+                  <td id="country"></td>
+                
+              </tr>
+              <tr>
+                  <td>Country Code</td>
+                  <td id="countryCode"></td>
+                
+              </tr>
+              <tr>
+                   <td>Latitude</td>
+                   <td id="latitude"></td>
+              </tr>
+              <tr>
+                   <td>Longtitude</td>
+                   <td id="longtitude"></td>
+              </tr>
+              <tr>
+                    <td>Timezone</td>
+                    <td id="timezone"></td>
+              </tr>
+              <tr>
+                    <td>Organization</td>
+                    <td id="organization"></td>
+              </tr>
+              <tr>
+                  <td>ASN Number</td>
+                  <td id="ASN"></td>
+                
+              </tr>
+          </table>
+       </div>
+
+        <div id="aboutContainer">
+          <strong>IPv4</strong>
+          <p>Shows the IP Address Information (IPv4) for the current website.</p>
+          <strong>ASN Number</strong>
+          <p>
+            ASN stands for Autonomous System Number. It is a unique number assigned to an Autonomous System (AS),
+            which is a collection of IP networks and routers under the control of one organization
+            that presents a common routing policy to the internet.
+          </p>
+          <strong>Developer Name :</strong> <span>Neeraj Kumar</span><br>
+        
+          <strong>Contact :</strong><span>neerajkumar99805@gmail.com</span>
+          
+          
+        </div>
+       <img id="imgContainer" src="./image/loading.gif" alt="loading">
+
+     </div>   
+    <script src="./js/script.js"></script>
+    
+</body>
+</html>
